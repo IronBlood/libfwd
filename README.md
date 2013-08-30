@@ -4,7 +4,7 @@ This is a forked project from [Vladimir V. Pavluk](http://www.pavluk.org/)'s pro
 * [libdata](http://www.pavluk.org/projects/libcgic/libdata/) - A data processing library only working with MySQL database.
 * [libhtmltpl](http://www.pavluk.org/projects/libcgic/libhtmltpl) - A template engine library.
 
-Well, as my demand is quite simple: a framework only supporting FastCGI would works for me, and would be better if works with JSON. So I start to migrate the core part to this new project, [libfwd](https://github.com/IronBlood/libfwd), which means library for FCGI Web Daemon.
+Well, as my demand is quite simple: a framework ONLY supporting **FastCGI** would works for me, and would be better if works with **JSON**. So I start to migrate the core part to this new project, [libfwd](https://github.com/IronBlood/libfwd), which means library for FCGI Web Daemon.
 
 Dependence
 ==========
@@ -23,9 +23,8 @@ libfwd should be easy to install as other GNU programs.
     $ make
     # make install
 
-Examples
-========
-
+Usage
+=====
 
 Other
 =====
