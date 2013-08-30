@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include <errno.h>
 #include <assert.h>
 #include <string.h>
@@ -7,8 +6,8 @@
 #include <sys/uio.h>
 #include <unistd.h>
 
-#include "cgi_headers.h"
-#include "cgi_ob_stream.h"
+#include <fwd/cgi_headers.h>
+#include <fwd/cgi_ob_stream.h>
 
 ssize_t ob_stream_write(struct s_ob_stream *stream, const char *buffer, size_t size)
 {

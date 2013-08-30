@@ -5,7 +5,7 @@
  *      Author: IronBlood
  */
 
-#include "cgi_params.h"
+#include <fwd/cgi_params.h>
 #include <string.h>
 
 static struct s_http_param *param_create(char *name, char *value);

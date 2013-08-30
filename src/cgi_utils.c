@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cgi_utils.h"
+#include <fwd/cgi_utils.h>
 
 char *url_encode(const char *s, int length, int *new_length)
 {

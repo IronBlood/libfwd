@@ -1,7 +1,6 @@
-#define _GNU_SOURCE
 #include <stdio.h>
 #include <string.h>
-#include "cgi_parser.h"
+#include <fwd/cgi_parser.h>
 
 void skip_chars(char **data, char *chars)
 {

@@ -4,9 +4,9 @@
 #include <sys/types.h>
 #include <ctype.h>
 #include <time.h>
-#include "cgi.h"
-#include "cgi_session.h"
-#include "cgi_sess_file.h"
+#include <fwd/cgi.h>
+#include <fwd/cgi_session.h>
+#include <fwd/cgi_sess_file.h>
 
 #define SESSID_LENGTH 32
 

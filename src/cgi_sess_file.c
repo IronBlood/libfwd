@@ -1,5 +1,3 @@
-#define _GNU_SOURCE
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +10,7 @@
 #include <dirent.h>
 #include <sys/file.h>
 
-#include "cgi_sess_file.h"
+#include <fwd/cgi_sess_file.h>
 
 // TODO: change folder
 #define SESSION_FILE "/tmp/sess_"

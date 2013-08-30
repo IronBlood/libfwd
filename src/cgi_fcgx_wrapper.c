@@ -1,4 +1,4 @@
-#include "cgi_fcgx_wrapper.h"
+#include <fwd/cgi_fcgx_wrapper.h>
 
 // see fcgi-2.4.1/libfcgi/fcgi_studio.c
 size_t FCGI_fwrite(const char * str, size_t size, size_t nmemb, FCGX_Stream *stream)

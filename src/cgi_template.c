@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -9,7 +8,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include "cgi.h"
+#include <fwd/cgi.h>
 
 char *template_string_replace(char *ori, const char *old, const char *new);
 

@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "cgi.h"
+#include <fwd/cgi.h>
 
 #define HDR_SIZE sizeof(struct s_http_header)
 

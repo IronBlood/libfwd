@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
-#include "cgi_session.h"
-#include "cgi_sess_stdtype.h"
+#include <fwd/cgi_session.h>
+#include <fwd/cgi_sess_stdtype.h>
 
 // TODO: unchecked 20121004 by IronBlood
 

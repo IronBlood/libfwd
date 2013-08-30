@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "cgi.h"
-#include "cgi_headers.h"
-#include "cgi_session.h"
-#include "cgi_ob_stream.h"
-#include "cgi_utils.h"
+#include <fwd/cgi.h>
+#include <fwd/cgi_headers.h>
+#include <fwd/cgi_session.h>
+#include <fwd/cgi_ob_stream.h>
+#include <fwd/cgi_utils.h>
 
 /** Create and initialize CGI context instance.
  * Create and initialize CGI context instance, only available in FastCGI mode.
