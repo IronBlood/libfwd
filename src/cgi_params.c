@@ -27,7 +27,7 @@ struct s_param_list *param_list_init(struct s_cgi_context *ctx)
 
 	struct s_param_list *pl;
 	char buf[1024], *t1, *t2;
-	struct s_http_param *new_param;
+	struct s_http_param *new_param, *last_param;
 
 	strncpy(buf, cgi_getenv(ctx, "QUERY_STRING"), 1024);
 
@@ -50,7 +50,9 @@ struct s_param_list *param_list_init(struct s_cgi_context *ctx)
 			if(pl->params == NULL)
 				pl->params = new_param;
 			else
-				pl->params->next = new_param;
+				last_param->next = new_param;
+
+			last_param = new_param;
 		}
 		t1 = strtok(NULL, "&");
 	}
